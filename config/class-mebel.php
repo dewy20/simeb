@@ -1,8 +1,8 @@
 <?php
 include_once 'db-config.php';
 
-class Mebel extends Database {
-
+class Mebel extends Database 
+{
     public function getAllMebel(){
         $query = "SELECT m.*, k.nama_kategori FROM tb_mebel m 
                   LEFT JOIN tb_kategori k ON m.kategori_id = k.id_kategori

@@ -33,7 +33,7 @@ $res = $k->getAllKategori();
           <tr>
             <td><?php echo $i++;?></td>
             <td><?php echo htmlspecialchars($row['nama_kategori']);?></td>
-            <td><a class="btn btn-sm btn-danger" href="?del=<?php echo $row['id_kategori'];?>" onclick="return confirm('Hapus kategori?')">Hapus</a></td>
+            <td><a class="btn btn-sm btn-danger" href="?del=<?php echo $row['id_kategori'];?>" onclick="return confirm('tambah kategori?')">Tambah</a></td>
           </tr>
         <?php endwhile; ?>
       </tbody>

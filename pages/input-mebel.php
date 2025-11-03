@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['save'])){
     <h4>Input Data Mebel</h4>
     <form method="post">
       <div class="form-group">
-        <label>Nama Mebel</label>
+        <label>Nama Produk</label>
         <input required class="form-control" name="nama_mebel">
       </div>
       <div class="form-group">
@@ -50,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['save'])){
         <label>Deskripsi</label>
         <textarea name="deskripsi" class="form-control"></textarea>
       </div>
-      <button name="save" class="btn btn-primary">Simpan</button>
+      <button name="save" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </div>
