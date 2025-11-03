@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background:#f5f7fa; }
+.app-wrapper { min-height:100vh; }
+.sidebar { width:260px; min-height:100vh; position:fixed; }
+.main-content { margin-left:260px; }
+.brand h5 { color:#fff; }
+.card { border-radius:8px; }
